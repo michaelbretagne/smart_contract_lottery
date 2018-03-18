@@ -4,7 +4,7 @@ const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
   "[YOUR MNEMONIC PHRASE FROM METAMASK]",
-  "https://rinkeby.infura.io/04TZagwwylYxLoXeoY6u"
+  "[YOUR INFURA ACCESS (https://infura.io/)]"
 );
 
 const web3 = new Web3(provider);
